@@ -1,0 +1,327 @@
+{
+    "results": [
+      {
+        "id": 203467483,
+        "partnerName": "gupy_public_page",
+        "endedAt": null,
+        "createdAt": "2022-09-29T23:04:38.422Z",
+        "updatedAt": "2022-09-29T23:04:48.709Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1998-04-07",
+          "id": 28811206,
+          "name": "Lucas",
+          "lastName": "Hilquias",
+          "email": "lucastinem98@gmail.com",
+          "identificationDocument": "02263160680",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/lucas-hilquias-78314a217",
+          "gender": "male",
+          "mobileNumber": "+5531975066732",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18573406,
+          "name": "Cadastro",
+          "status": "not_started"
+        },
+        "score": 39.653924560546876
+      },
+      {
+        "id": 203480919,
+        "partnerName": "gupy_portal",
+        "endedAt": null,
+        "createdAt": "2022-09-29T23:34:34.489Z",
+        "updatedAt": "2022-09-30T00:05:06.917Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1996-05-14",
+          "id": 2716175,
+          "name": "Adailton",
+          "lastName": "Santos",
+          "email": "adaitinho.olivera.96@gmail.com",
+          "identificationDocument": "06955125524",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": null,
+          "gender": "male",
+          "mobileNumber": "+5575981865076",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574218,
+          "name": "Pretensão Salarial",
+          "status": "done"
+        },
+        "score": 35.90439453125
+      },
+      {
+        "id": 203577476,
+        "partnerName": "indeed",
+        "endedAt": null,
+        "createdAt": "2022-09-30T03:46:20.724Z",
+        "updatedAt": "2022-09-30T03:46:40.450Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1996-07-22",
+          "id": 16397977,
+          "name": "Kleiton",
+          "lastName": "Alves Pereira",
+          "email": "kleiton.alves@outlook.com",
+          "identificationDocument": "43840888840",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/kleiton-alves-pereira-8604b0153/",
+          "gender": "male",
+          "mobileNumber": "+5511989484487",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18573747,
+          "name": "Integridade",
+          "status": "not_started"
+        },
+        "score": 39.12292175292969
+      },
+      {
+        "id": 203589627,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T05:53:47.476Z",
+        "updatedAt": "2022-09-30T05:54:50.416Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1999-08-17",
+          "id": 13951908,
+          "name": "Jhonatan",
+          "lastName": "Gomes de Souza",
+          "email": "jhonatangs1@gmail.com",
+          "identificationDocument": "09889374684",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/jhonatan-gomes-de-souza-554672159/",
+          "gender": "male",
+          "mobileNumber": "+5531975902130",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574218,
+          "name": "Pretensão Salarial",
+          "status": "done"
+        },
+        "score": 38.93412475585938
+      },
+      {
+        "id": 203590235,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T06:06:19.720Z",
+        "updatedAt": "2022-09-30T06:16:59.593Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "2000-09-22",
+          "id": 2277512,
+          "name": "Mateus",
+          "lastName": "Lucena",
+          "email": "mateustlucena@gmail.com",
+          "identificationDocument": "70295340428",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": null,
+          "gender": "male",
+          "mobileNumber": "+5581989862756",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574218,
+          "name": "Pretensão Salarial",
+          "status": "done"
+        },
+        "score": 34.71688232421875
+      },
+      {
+        "id": 203595601,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T08:43:42.573Z",
+        "updatedAt": "2022-09-30T08:43:57.645Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "2000-03-15",
+          "id": 14632084,
+          "name": "Brian",
+          "lastName": "Santos",
+          "email": "brianrochasantos@gmail.com",
+          "identificationDocument": "50332026850",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/brian-santos-89601b219/",
+          "gender": "male",
+          "mobileNumber": "+5511981683284",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18573747,
+          "name": "Integridade",
+          "status": "not_started"
+        },
+        "score": 51.317517089843754
+      },
+      {
+        "id": 203597392,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T09:19:15.232Z",
+        "updatedAt": "2022-10-04T10:50:45.300Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1995-03-21",
+          "id": 145543,
+          "name": "Raphael",
+          "lastName": "Pereira",
+          "email": "rph.santos@outlook.com",
+          "identificationDocument": "14122217733",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/rphsantos7/",
+          "gender": "male",
+          "mobileNumber": "(21) 9 6905 6208",
+          "phoneNumber": "(21) 3016-5697"
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18573962,
+          "name": "Tutorial Prático",
+          "status": "not_started"
+        },
+        "score": 59.01096801757813
+      },
+      {
+        "id": 203601479,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T10:15:45.105Z",
+        "updatedAt": "2022-10-03T13:19:10.068Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1996-08-12",
+          "id": 22723065,
+          "name": "Henrique",
+          "lastName": "Santos",
+          "email": "henrique.ph935@gmail.com",
+          "identificationDocument": "06909245342",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/paulo-henrique-dos-santos-lima-10244922a/",
+          "gender": "male",
+          "mobileNumber": "+5588981993718",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574218,
+          "name": "Pretensão Salarial",
+          "status": "done"
+        },
+        "score": 38.27217102050781
+      },
+      {
+        "id": 203602354,
+        "partnerName": "linkedin",
+        "endedAt": null,
+        "createdAt": "2022-09-30T10:25:18.160Z",
+        "updatedAt": "2022-10-04T00:59:11.867Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "1998-02-12",
+          "id": 3145028,
+          "name": "João Raphael",
+          "lastName": "Cioffi",
+          "email": "joaorcioffi@gmail.com",
+          "identificationDocument": "22985068843",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/joao-cioffi/",
+          "gender": "male",
+          "mobileNumber": "+55 16 99411-7066",
+          "phoneNumber": "+5516994117066"
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574168,
+          "name": "Excel",
+          "status": "not_started"
+        },
+        "score": 56.028900146484375
+      },
+      {
+        "id": 203603052,
+        "partnerName": "indeed",
+        "endedAt": null,
+        "createdAt": "2022-09-30T10:32:35.480Z",
+        "updatedAt": "2022-09-30T11:19:41.481Z",
+        "tags": [],
+        "candidate": {
+          "birthdate": "2000-12-11",
+          "id": 25364037,
+          "name": "Willams",
+          "lastName": "Júnior",
+          "email": "willams.juniooor@hotmail.com",
+          "identificationDocument": "07824046427",
+          "countryOfOrigin": "BR",
+          "linkedinProfileUrl": "https://www.linkedin.com/in/willams-j%C3%BAnior-9bb38222b",
+          "gender": "male",
+          "mobileNumber": "+5581996316701",
+          "phoneNumber": null
+        },
+        "job": {
+          "id": 3108344,
+          "name": "Desenvolvedor Python Jr"
+        },
+        "manualCandidate": null,
+        "currentStep": {
+          "id": 18574218,
+          "name": "Pretensão Salarial",
+          "status": "done"
+        },
+        "score": 35.92203063964844
+      }
+    ],
+    "totalResults": 220,
+    "page": 1,
+    "totalPages": 22
+  }
