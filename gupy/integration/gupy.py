@@ -4,10 +4,11 @@ import requests
 from requests import Response
 import requests_cache
 from urllib.parse import urljoin
-from credentials import GUPY_TOKEN, GUPY_API_URL_BASE, CACHE_TTL
+from . credentials import GUPY_TOKEN, GUPY_API_URL_BASE, CACHE_TTL
 
 from urllib.parse import urljoin
-from . models import ResultsModel
+
+
 
 
 requests_cache.install_cache(
@@ -32,13 +33,17 @@ class GupyApi:
             offset = 1
             while True:
                 url = f'https://api.gupy.io/api/v1/jobs/{job}/applications?status=hired&order=id%20asc&perPage=100&page={offset}'
+                
+                
                 headers = {
                     'accept': 'application/json',
                     'authorization': f'Bearer {self.token}'  
                     }
-                request = requests.get(url, headers=headers)
+                request = requests.get(url=url, headers=headers)
                 response = request.json()
                 offset += 1
+                    
+
                 #print(response)
 
                 """ if len(response['results']) > 1:

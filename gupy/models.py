@@ -1,19 +1,40 @@
 from django.db import models
 
 # Create your models here.
-class ResultsModel(models.Model):
-    result_id = models.IntegerField()
+ 
+class ResultModel(models.Model):    
     partnerName = models.CharField(max_length=100)
-    endedAt = models.DateTimeField()
+    job_Id = models.CharField(max_length=100, default=None, null=True, blank=True)
+    job_Name = models.CharField(max_length=100, default=None, null=True, blank=True)
+    candidate_Id = models.CharField(max_length=100, default=None, null=True, blank=True)
+    score = models.CharField(max_length=100, default=None, null=True, blank=True)
+    name = models.CharField(max_length=100, default=None, null=True, blank=True)
+    lastName = models.CharField(max_length=100, default=None, null=True, blank=True)
+    gender = models.CharField(max_length=100, default=None, null=True, blank=True)
+    email = models.CharField(max_length=100, default=None, null=True, blank=True)
+    mobileNumber = models.CharField(max_length=100, default=None, null=True, blank=True)
+    phoneNumber = models.CharField(max_length=100, default=None, null=True, blank=True)
+    candidate_birthdate = models.CharField(max_length=100, default=None, null=True, blank=True)
+    identificationDocument = models.CharField(max_length=100, default=None, null=True, blank=True)
+    countryOfOrigin = models.CharField(max_length=100, default=None, null=True, blank=True)
+    currentStepId = models.CharField(max_length=100, default=None, null=True, blank=True)
+    currentStepName = models.CharField(max_length=100, default=None, null=True, blank=True)
+    currentStepStatus = models.CharField(max_length=100, default=None, null=True, blank=True)
     createdAt = models.DateTimeField()
     updatedAt = models.DateTimeField()
+    endedAt = models.DateTimeField()
+    linkedinProfileUrl = models.CharField(max_length=100, default=None, null=True, blank=True)
+    manualCandidate = models.CharField(max_length=100, null=True, default=None, blank=True)
+    result_id = models.CharField(max_length=100, default=None, null=True, blank=True)
     tags = models.CharField(max_length=100)
+
+    
 
 
 class CandidateModel(models.Model):
-    result = models.ForeignKey(ResultsModel, on_delete=models.CASCADE)
+    
     birthdate = models.DateField()
-    candidate_id = models.IntegerField()
+    candidate = models.IntegerField()
     name = models.CharField(max_length=255)
     lastName = models.CharField(max_length=255)
     email = models.EmailField()
@@ -22,19 +43,24 @@ class CandidateModel(models.Model):
     linkedinProfileUrl = models.URLField()
     gender = models.CharField(max_length=255)
     mobileNumber = models.CharField(max_length=255)
-    phoneNumber = models.CharField(max_length=255)
+    phoneNumber = models.CharField(max_length=255, default=None, null=True)
+    creaedAt = models.DateTimeField(default=None)
+    
+    
+
+
 
 class JobModel(models.Model):
-    candidate = models.ForeignKey(CandidateModel, on_delete=models.CASCADE)
+    candidate = models.ForeignKey('CandidateModel', on_delete=models.CASCADE)
     job_id = models.IntegerField()
     name = models.CharField(max_length=255)
 
 class ManualCandidateModel(models.Model):
-    job = models.ForeignKey(JobModel, on_delete=models.CASCADE)
-    manualCandidate_id = models.IntegerField()
+    job = models.ForeignKey('JobModel', on_delete=models.CASCADE)
+
     name = models.CharField(max_length=255)
     status = models.CharField(max_length=255)
 
 class ScoreModel(models.Model):
-    job = models.ForeignKey(JobModel, on_delete=models.CASCADE)
+    job = models.ForeignKey('JobModel', on_delete=models.CASCADE)
     score = models.IntegerField()

@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 router = routers.DefaultRouter()
-router.register(r'api', views.ResultsViews)
+router.register(r'api', views.ResultsViewSet)
 
 
 urlpatterns = [

@@ -1,8 +1,14 @@
 from rest_framework import serializers
-from . import models 
+from . models import ResultModel, CandidateModel, JobModel 
 
 
 class ResultsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = models.ResultsModel 
+        model = ResultModel 
+        fields = '__all__'
+
+
+class CandidateHiredSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = CandidateModel 
         fields = '__all__'
